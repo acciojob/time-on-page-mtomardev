@@ -13,7 +13,7 @@ const App = () => {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [seconds]);
 
   return (
     <div>
